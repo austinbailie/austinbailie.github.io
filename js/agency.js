@@ -40,6 +40,5 @@
   $(window).scroll(navbarCollapse);
 
 
-
 })(jQuery); // End of use strict
 

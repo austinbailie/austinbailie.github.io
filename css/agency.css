@@ -203,7 +203,21 @@ header.masthead .intro-text .intro-heading {
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
+.portfolio-car {
+
+  display: inline-block;
+}
+
+@media (max-width: 768px) {
+
+  header.masthead {
+
+    background-image: url("../img/parkMobile.jpg");
+  }
+}
+
 @media (min-width: 768px) {
+
   header.masthead .intro-text {
     padding-top: 300px;
     padding-bottom: 200px;
@@ -309,6 +323,7 @@ header.masthead .intro-text .intro-heading {
 .modal {
 
   overflow-y: auto !important;
+  overflow-x: hidden;
 }
 
 .portfolio-modal .modal-dialog {
