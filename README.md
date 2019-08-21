@@ -1,2 +1,2 @@
-# abailiewebsite.github.io
+# austinbailie.github.io
 Personal resume website
