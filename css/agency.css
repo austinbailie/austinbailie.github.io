@@ -323,7 +323,7 @@ header.masthead .intro-text .intro-heading {
 .modal {
 
   overflow-y: auto !important;
-  overflow-x: hidden;
+  
 }
 
 .portfolio-modal .modal-dialog {
