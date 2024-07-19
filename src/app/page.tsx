@@ -3,7 +3,7 @@ import React from 'react'
 import styled from "styled-components";
 import { Bio } from '../components/Bio'
 import {Menu} from '../components/Menu'
-import { Timeline } from '@/components/Timeline';
+import { CareerTimeline } from '@/components/Timeline';
 
 const Container = styled.div`
 
@@ -64,7 +64,7 @@ export default function Home() {
       <Content style={{scrollBehavior:'smooth'}}>
 
         <Bio id={"home"}/>
-        <Timeline id={"work"}/>
+        <CareerTimeline id={"work"}/>
 
       </Content>
     
