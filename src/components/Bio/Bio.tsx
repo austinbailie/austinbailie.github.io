@@ -17,10 +17,8 @@ const Container = styled.div`
   background-color: #292A2B;
   padding: 10px;
   max-width: 45rem;
-  max-height: fit-content;
+  height: 100vh;
   border-radius: 10px;
-
-
 
 `
 
@@ -38,7 +36,6 @@ const Description = styled.div`
   margin-top: 10px;
   display: flex;
   flex-direction: column;
-  //max-width: 65%;
   line-height: 1.6;
 
 `
@@ -49,6 +46,10 @@ const BrowserControls = styled.div`
   flex-direction: row;
   gap: 8px;
   width: 15%;
+
+  @media (max-width: 750px) {
+    width: 18%;
+  }
 
 `
 
@@ -100,6 +101,7 @@ const SearchBar = styled.div`
 
   position: relative;
   left: 17%;
+  bottom: 3px;
   
 `
 
@@ -115,6 +117,10 @@ const IconsContainer = styled.div`
     gap: 5px;
     span {
       line-height: 2.1;
+
+      @media (max-width: 750px) {
+        line-height: 1.1;
+      }
     }
   }
   

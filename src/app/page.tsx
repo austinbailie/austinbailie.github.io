@@ -4,6 +4,10 @@ import styled from "styled-components";
 import { Bio } from '../components/Bio'
 import {Menu} from '../components/Menu'
 import { CareerTimeline } from '@/components/Timeline';
+import { Projects } from '@/components/Projects'
+import { Inter } from "next/font/google";
+
+const inter = Inter({ subsets: ["latin"] });
 
 const Container = styled.div`
 
@@ -14,7 +18,11 @@ const Container = styled.div`
   height: 100vh;
   gap: 10vh;
   background-color: #0E0E0E;
-  
+
+  @media (max-width: 750px) {
+    padding: 3vh;
+    padding-bottom: 0;
+  }
 
 `
 
@@ -41,6 +49,7 @@ const Content = styled.div`
 
   @media (max-width: 768px) {
     width: 100%;
+    gap: 25vh;
   }
 
   &::-webkit-scrollbar {
@@ -54,7 +63,7 @@ const Content = styled.div`
 
 export default function Home() {
   return (
-    <Container>
+    <Container className={inter.className}>
 
       <MenuContainer>
         <Menu/>
@@ -65,6 +74,7 @@ export default function Home() {
 
         <Bio id={"home"}/>
         <CareerTimeline id={"work"}/>
+        <Projects id={"projects"}/>
 
       </Content>
     

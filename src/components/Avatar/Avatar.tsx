@@ -13,11 +13,22 @@ const Container = styled.div`
   padding-left: 20px;
   padding-bottom: 20px;
 
+  @media (max-width: 750px) {
+    padding-left: 10px;
+  }
+
 `
 
 const ImageCon = styled(Image)`
   
   border-radius: 100px;
+  width: 150px;
+  height: 150px;
+
+  @media (max-width: 750px) {
+    width: 100px;
+    height: 100px;
+  }
 
 `
 
@@ -27,6 +38,10 @@ const Traits = styled.div`
   flex-direction: column;
   justify-content: space-evenly;
   padding-left: 40px;
+
+  @media (max-width: 750px) {
+    padding-left: 20px;
+  }
 
   div {
 
@@ -48,7 +63,7 @@ export const Avatar = () => {
 
     <Container>
 
-      <ImageCon src={profile} alt={''} width={150} height={150}/>
+      <ImageCon src={profile} alt={''} />
 
       <Traits>
         <div>

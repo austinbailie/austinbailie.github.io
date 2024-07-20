@@ -51,7 +51,8 @@ export const Menu = () => {
       <Icon>AB</Icon>
 
       <MenuItem href={'#home'} scroll={true}>home</MenuItem>
-      <MenuItem href={'#work'} scroll={true}>work</MenuItem>
+      <MenuItem href={'#work'} scroll={true}>career</MenuItem>
+      <MenuItem href={'#projects'} scroll={true}>projects</MenuItem>
 
 
     </Container>
