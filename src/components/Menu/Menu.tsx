@@ -34,6 +34,7 @@ const MenuItem = styled(Link)`
   border-radius: 5px;
   font-family: ${bebas.style.fontFamily};
   font-size: 18px;
+  color: white;
 
   &:hover {
     background-color: #454545;

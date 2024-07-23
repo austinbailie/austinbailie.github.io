@@ -51,6 +51,7 @@ const TimelineContainer = styled.div`
   padding: 10px;
   width: 35vw;
   //height: 1500px;
+  color: white;
 
   @media (max-width: 750px) {
     justify-content: center;
