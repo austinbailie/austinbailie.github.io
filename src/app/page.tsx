@@ -44,7 +44,7 @@ const Content = styled.div`
   display: flex;
   width: 70%;
   flex-direction: column;
-  gap: 50vh;
+  gap: 30vh;
   overflow-y: scroll;
 
   @media (max-width: 768px) {
