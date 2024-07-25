@@ -9,13 +9,14 @@ const style = {
   top: '50%',
   left: '50%',
   transform: 'translate(-50%, -50%)',
-  width: 800,
-  height: 'fit-content',
+  maxWidth: '800px',
+  width: '100%',
   bgcolor: '#161617',
   border: '2px solid #000',
   boxShadow: 24,
   p: 4,
-  color: 'white'
+  color: 'white',
+  outline: 'none',
 };
 
 
@@ -33,7 +34,6 @@ const Container = styled.div`
   }
 
 `
-
 
 const Title = styled.div`
 
@@ -67,15 +67,19 @@ const Header = styled(Typography)`
 
 const ImageListCar = styled(ImageList)`
 
-  height: 550px;
-  width: 750px;
-
+  max-width: 700px;
+  width: 100%;
+  margin-left: 15px;
+  pointer-events: none;
+  
+  
 `
 
 const ImageListDoor = styled(ImageList)`
 
-  height: 500px;
-  width: 750px;
+  max-width: 700px;
+  width: 100%;
+  pointer-events: none;
 
 `
 
@@ -86,6 +90,7 @@ const ImageCon = styled.div`
   gap: 8px;
   
 `
+
 
 export const Projects = ({...props}) => {
 
@@ -127,8 +132,8 @@ export const Projects = ({...props}) => {
             {carPhotos.map((item) => (
               <ImageListItem key={item}>
                 <img
-                  srcSet={`${item}?w=248&fit=crop&auto=format&dpr=2 2x`}
-                  src={`${item}?w=248&fit=crop&auto=format`}
+                  srcSet={`${item}`}
+                  src={`${item}`}
                   alt={''}
                 />
               </ImageListItem>
@@ -155,7 +160,7 @@ export const Projects = ({...props}) => {
       >
         <Box sx={style}>
           <ImageCon>
-            <img src='/doorOpener/app.jpg' height="500"/>
+            <img src='/doorOpener/app.jpg' height='405'/>
             <ImageListDoor  cols={2} gap={8}>
               {doorController.map((item) => (
                 <ImageListItem key={item}>
