@@ -63,7 +63,7 @@ export const Avatar = () => {
 
     <Container>
 
-      <ImageCon src={profile} alt={''} />
+      <ImageCon src={profile} alt={''} priority={true}/>
 
       <Traits>
         <div>
