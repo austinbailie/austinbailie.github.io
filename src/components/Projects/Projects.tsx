@@ -11,12 +11,13 @@ const style = {
   transform: 'translate(-50%, -50%)',
   maxWidth: '800px',
   width: '100%',
-  bgcolor: '#161617',
+  bgcolor: '#292A2B',
   border: '2px solid #000',
   boxShadow: 24,
   p: 4,
   color: 'white',
   outline: 'none',
+  borderRadius: '10px'
 };
 
 
