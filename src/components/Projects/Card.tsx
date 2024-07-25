@@ -13,12 +13,28 @@ const Container = styled.div`
   padding: 10px;
   border-radius: 10px;
   cursor: pointer;
+  max-width: 700px;
+
+  &:hover {
+
+    box-shadow: inset 0 0 0.5px 1px hsla(0, 0%,  
+              100%, 0.075),
+              /* shadow ring 👇 */
+              0 0 0 1px hsla(0, 0%, 0%, 0.05),
+              /* multiple soft shadows 👇 */
+              0 0.3px 0.4px hsla(0, 0%, 0%, 0.02),
+              0 0.9px 1.5px hsla(0, 0%, 0%, 0.045),
+              0 3.5px 6px hsla(0, 0%, 0%, 0.09);
+    
+  }
 
 `
 
 const ImageCon = styled(Image)`
   
   border-radius: 10px;
+  width: 100%;
+  height: 100%;
 
 `
 
@@ -56,7 +72,7 @@ export const Card = ({src, text, onClick} : {src: string, text: TextObj, onClick
   return (
     <Container onClick={() => onClick!()}>
 
-      <ImageCon src={src} alt="" width="700" height="500"/>
+      <ImageCon src={src} alt="" width="700" height="500" priority={true}/>
 
       <ItemContainer>
 

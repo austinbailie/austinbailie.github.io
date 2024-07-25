@@ -155,9 +155,8 @@ export const Bio = ({...props}) => {
           Hey, I'm Austin. I'm a Software Developer obsessed with building pixel-perfect experiences.
 
           <Avatar/>
-          I'm a tinkerer at heart and always have my hands busy. From cars to coding, I am passionate about solving the problems
-          these fields throw at me. I graduated from the University of Guelph (Co-op) in 2021 with a Bachelor of Computing where
-          I accepted five internships during my studies.
+          I'm a tinkerer at heart and always have my hands busy. Whether it's working on cars or coding, I am passionate about solving the problems these fields present. 
+          I graduated from the University of Guelph (Co-op) in 2021 with a Bachelor of Computing, during which I completed five internships.
         
         </Description>
 
