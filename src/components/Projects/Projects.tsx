@@ -202,7 +202,7 @@ export const Projects = ({...props}) => {
           Arrow is a tool designed to help software developers find solutions faster through documentation and team collaboration. It includes features such as email and Google sign-up, 
           subscription payments through the Stripe API, code syntax highlighting, search functionality, 
           and communication with various APIs. 
-          This tool was built from the ground up using Next.js, styled-components, and Google Firebase.
+          This tool was built from the ground up using Next.JS, Styled-components, and Google Firebase.
           </Typography>
         </Box>
       </Modal>
