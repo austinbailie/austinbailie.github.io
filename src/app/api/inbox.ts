@@ -6,6 +6,6 @@ export async function POST(request: Request) {
   console.log('Request body: ', body)
 
   // Return a success message
-  return new Response("", { status: 200 })
+  return new Response("OK", { status: 200 })
 
 }
