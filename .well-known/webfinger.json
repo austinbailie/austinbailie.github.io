@@ -1,0 +1,10 @@
+{
+	"subject": "acct:earlyadopter@drainlabs.github.io/aptestpost",
+	"links": [
+		{
+			"rel": "self",
+			"type": "application/activity+json",
+			"href": "https://austinbailie.me/actors/earlyadopter.json"
+		}
+	]
+}
