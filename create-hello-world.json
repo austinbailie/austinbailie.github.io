@@ -1,15 +1,15 @@
 {
 	"@context": "https://www.w3.org/ns/activitystreams",
 
-	"id": "https://drainlabs.github.io/aptestpost/create-hello-world",
+	"id": "https://austinbailie.me/create-hello-world",
 	"type": "Create",
-	"actor": "https://drainlabs.github.io/aptestpost/actors/earlyadopter.json",
+	"actor": "https://austinbailie.me/actors/earlyadopter.json",
 
 	"object": {
-		"id": "https://drainlabs.github.io/aptestpost/create-hello-world",
+		"id": "https://austinbailie.me/create-hello-world",
 		"type": "Note",
 		"published": "2025-03-03T17:17:11Z",
-		"attributedTo": "https://drainlabs.github.io/aptestpost/actors/earlyadopter.json",
+		"attributedTo": "https://austinbailie.me/actors/earlyadopter.json",
     "inReplyTo": "https://mastodon.social/@earlyadopter/114101570562968262",
 		"content": "<p>Hello world</p>",
 		"to": "https://www.w3.org/ns/activitystreams#Public"
